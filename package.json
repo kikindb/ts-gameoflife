@@ -1,13 +1,19 @@
 {
-  "name": "gameoflife",
+  "name": "kikindb.gameoflife",
+  "homepage": "https://kikindb.github.io/gameoflife/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "lite-server",
     "build": "tsc && cp ./src/index.html ./dist/index.html"
   },
   "keywords": [],
   "author": "J Enrique Dick B",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
