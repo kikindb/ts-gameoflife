@@ -1,8 +1,8 @@
 {
   "name": "kikindb.gameoflife",
-  "homepage": "https://kikindb.github.io/gameoflife/",
+  "homepage": "https://kikindb.github.io/ts-gameoflife/",
   "version": "1.0.0",
-  "description": "",
+  "description": "Game of life written in TypeScript by J Enrique Dick B",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
