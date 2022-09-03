@@ -1,0 +1,13 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "build": "tsc && cp ./src/index.html ./dist/index.html"
+  },
+  "keywords": [],
+  "author": "J Enrique Dick B",
+  "license": "ISC"
+}
